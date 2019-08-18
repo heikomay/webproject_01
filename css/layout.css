@@ -1,0 +1,284 @@
+/*!
+Theme Name: digitalmedia
+Author: heiko may
+Author URI: https://digitalmedia-hamburg.de
+Version: 1.0
+*/
+
+/*  =========================================================================
+    MOBILE FIRST
+    ========================================================================= */
+
+  .row {
+    width: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  /* Clearfix */
+  .row:before,
+  .row:after {
+    content: " ";
+    display: table;
+  }
+  
+  .row:after {
+    clear: both;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: auto;
+    margin-left: auto; 
+  }
+  
+  .columns {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+  }
+
+  /* Header navi*/
+  .side-header {
+    background-color: #1C2225;
+  }
+
+  .side-header .row {
+    padding: 0;
+  }
+ 
+  .logo {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  /* Showarea */
+  .page-header {
+    min-height: 600px;
+    background-image: -webkit-radial-gradient(50% 0%, ellipse cover, #76a8d8, #001e20 100%);
+  }
+  
+  .textbox-show {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 12em;
+  }
+
+  .showarea-heading {
+    font-weight: 300;
+    font-size: 1.7em;
+    color: white;
+    border-bottom: none;
+    background: #1c2225;
+    padding: 0.3em 0.6em;
+    line-height: 160%;
+  }
+
+  .lead {
+    font-size: 1em;
+    line-height: 150%;
+  }
+
+  /* Services */
+  .service-area {
+    background-color:#323e4a;
+    color: #FFFFFF;
+  }
+
+  /* About me */
+  .about-me {
+    background-color: #f5f5f5;
+  }
+
+  .aside-right {
+    background-color: #fff;
+  }
+
+  .aside-right strong {
+    color: #425669;
+  }
+
+  .image-subline {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  hr.divider {
+    background-color: #f99700;
+    display: block;
+    margin: 0 auto;
+    margin-top: .25em;
+    width: 4em;
+  }
+
+  .site-sitebar {
+    font-size: .9em;
+    line-height: 150%;
+  }
+
+  /* Box inside */
+  .box-inside {
+    padding: 1em 1em;
+  }
+
+  .welcome-area .box-inside, 
+  .service-area .box-inside {
+    color: #ffffff;
+    background: #425669;
+    border-radius: 3px;
+  }
+
+  .welcome-area .box-inside a {
+    text-decoration: none;
+    color: #a4b8c1;
+  }
+
+  /* Lists */
+  .list-enum {
+    list-style: none;
+    line-height: 2em;
+  }
+
+  .list-standard {
+    list-style-type: disc;
+    line-height: 170%;
+    margin-left: 1em;
+  }
+
+  /* Navi-left */
+  .navi-left li {
+    float: left;
+  }
+
+  .navi-left li a {
+   display: block;
+   padding: 0em 1em;
+   color: #fff;
+   text-decoration: none;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 0.8em;
+    line-height: 170%;
+    background-color: #20272B;
+    color: #efefef;
+  }
+
+  .footer hr {
+    background: #4E4E4E;
+    margin: 0;
+    padding: 0em 1em;
+  }
+
+  .footer-divider {
+    padding: 0em 1em;
+  }
+
+  /* Footer second */
+  .footer-bottom {
+    background-color: #000;
+    font-size: 0.9em;
+  }
+
+  .footer-bottom .copyright {
+    display: block;
+    padding: 1em;
+  }
+
+  /* Back to top button */ 
+  .back-to-top {
+    position: fixed;
+    display: block;
+    text-indent: -999em;
+    background: white url(../img/arrow_top.svg) center 50% no-repeat;
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 0.1875em;
+    height: 40px;
+    width: 40px;
+    bottom: .5em;
+    right: -2.5em;
+    opacity: .25;
+  }
+
+  .fade-left {
+    transition: transform .15s ease-in-out;
+  }
+
+  .back-to-top .show {
+    transform: translate(0, 0);
+  } 
+
+  /* Animation */ 
+  @keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+  }
+
+  .fade-in-element {
+    animation: fade-in 1.4s;
+    animation-duration: 1.0s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fade-in;
+  }
+
+  /* Tools */
+
+  /* Clear floats */
+  .clear {
+    clear: both;
+  }
+
+  .clear-left {
+    clear: left;
+  }
+
+  .clear-right {
+    clear: right;
+  }
+
+  .float-none {
+    float: none;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .padding-lr {
+    padding: 0em 1em;
+  }
+
+  .padding-tb {
+    padding-top: 1em;
+    padding-bottom: 1em
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+  
+  /* ==========================================================================
+   IE
+   ========================================================================== */
+
+   
+   
+  

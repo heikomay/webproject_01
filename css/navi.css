@@ -1,0 +1,45 @@
+/*  =========================================================================
+    NAVIGATION MOBIL
+    ========================================================================= */
+
+nav {
+    display: none;
+    width: 100%;
+    float: left;
+}
+
+nav li {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #505050;
+}
+
+nav a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+#toggle-nav {
+    position: absolute;
+    top: 0em;
+    right: 0;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* Toggle class buttons mobil view -> navi.js */
+.toggle-nav-button {
+    background-image: url(../img/strokes_navi.svg);
+}
+
+.toggle-nav-button-close {
+    background-image: url(../img/strokes_navi_close.svg); 
+}
