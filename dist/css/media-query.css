@@ -1,0 +1,191 @@
+/*  =========================================================================
+    MEDIA QUERY
+    ========================================================================= */
+
+/* Small devices (landscape phones, 576px and up) */
+ @media only screen and (min-width: 36em) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 48em) {
+    /* For desktop: >= 720*/
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 62em) {
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+  }
+
+  /* Offset for large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 62em) {
+    .lg-offset-1 {margin-left: 8.33%;}
+    .lg-offset-2 {margin-left: 16.66%;}
+    .lg-offset-3 {margin-left: 25%;;}
+    .lg-offset-4 {margin-left: 33.33%;}
+    .lg-offset-5 {margin-left: 41.66%;}
+    .lg-offset-6 {margin-left: 50%;}
+    .lg-offset-7 {margin-left: 58.33%;}
+    .lg-offset-8 {margin-left: 66.66%;}
+    .lg-offset-9 {margin-left: 75%;}
+    .lg-offset-10 {margin-left: 83.33%;}
+    .lg-offset-11 {margin-left: 91.66%;}
+    .lg-offset-12 {margin-left: 100%;}
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+    .textbox-show {
+      max-width: 26em;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .showarea-heading {
+      font-size: 2.2em;
+    }
+
+    .lead {
+      font-size: 1.3em;
+    }
+
+    .hide-element {
+      display: none;
+    }
+
+    #contact ul {
+      margin: 0em;
+    }
+  } 
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    body {
+      font-size: .97em;
+    }
+
+    .textbox-show {
+      max-width: unset;
+      margin-left: unset;
+      margin-right: unset;
+      text-align: left;
+      display: inline-block;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    body {
+      font-size: .985em;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    body {
+      font-size: 1em;
+    }
+    
+    .container {
+      max-width: 1140px;
+    }
+
+     /* Fixed header */
+    .side-header {
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+   
+    nav {
+      float: right;
+      width: auto;
+      display: block !important;
+      z-index: 2;
+    }
+  
+    nav a {
+      border: none;
+    }
+
+    nav li {
+      width: auto;
+      padding: 0;
+    }
+
+    .navbar a.active {
+      color: #fff;
+      background-color: #293236;
+    }
+  
+    nav a:hover {
+      color: #fff;
+      background-color: #262e31;
+    }
+
+    .logo {
+      width: auto;
+      float: left;
+    }
+    
+    #toggle-nav {
+      display: none;
+    }
+
+    .sidebar {
+      min-height: 28.12em;
+    }
+
+    /* Multicolumn */
+    .multicolumn {
+      column-count: 2;
+      column-gap: 2em;
+    }
+  }
+  
+  @media only screen and (orientation: landscape) {
+    
+    body {
+      background-color: #FFFFFF;
+    }
+
+  }

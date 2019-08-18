@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Change CSS box Model */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 150%;
+    display: grid;  /* Activate CSS Grid */
+    grid-template-rows: auto 1fr auto;
+    color: #323d42;
+    background-color: #fff;
+  }
+
+  article, 
+  aside, 
+  details, 
+  figcaption, 
+  figure, 
+  footer, 
+  header, 
+  hgroup, 
+  main, 
+  nav, 
+  section, 
+  summary {
+    display: block;
+}
+
+/* --- Typo -------------------------------------------------- */
+
+  h1, h2, h3, h4, h5, h6, img, p {
+    margin-bottom: 1em;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background: #dbe1e4;
+    margin: 1em 0 1em 0;
+  }
+  
+
+
+ 
