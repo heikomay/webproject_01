@@ -2,9 +2,9 @@ function init() {
     // Get Elements as Array
     var elements = document.querySelectorAll('.fade-element');
     // Call function if window is loaded
-    window.addEventListener('load', checkPosition);
+    window.addEventListener('load', showElements);
     
-    function checkPosition(){
+    function showElements(){
         // Iterate to first 3 elements
         for(var i = 0; i < 4; i++) {
             (function(index) {
